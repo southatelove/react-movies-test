@@ -29,7 +29,7 @@ class Main extends React.Component {
     const { movies, loading } = this.state;
     return (
       <main className="container content">
-        <Search searchMovies={this.searchMovies}></Search>
+        <Search searchMovies={this.searchMovies} />
         {!loading ? <Movies movies={movies} /> : <Preloader />}
       </main>
     );
