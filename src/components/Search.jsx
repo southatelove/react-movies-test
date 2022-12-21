@@ -30,7 +30,7 @@ const Search = (props) => {
         />
 
         <button
-          className="btn search-btn"
+          className="btn search-btn purple"
           onClick={() => searchMovies(search, type)}
         >
           Search
