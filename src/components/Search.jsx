@@ -7,7 +7,7 @@ const Search = (props) => {
   const [type, setType] = useState("all");
 
   const handleKey = (event) => {
-    if (event.key === "Enter" && event.key.length > 1) {
+    if (event.key === "Enter") {
       searchMovies(search, type);
     }
   };
